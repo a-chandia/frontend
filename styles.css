@@ -1,0 +1,40 @@
+body {
+    background-color: #f0f2f5;
+}
+
+h1, h4, h5 {
+    color: #343a40;
+}
+
+ul {
+    padding-left: 1rem;
+}
+
+ul li::marker {
+    color: #0d6efd; 
+}
+
+p, li {
+    color: #495057;
+}
+
+.border-end {
+    border-right: 2px solid #0d6efd !important;
+}
+
+.border-top {
+    border-top: 2px solid #0d6efd !important;
+}
+
+img {
+    object-fit: cover;
+}
+
+.container, header, main, footer, .row, .col-md-4, .col-md-8 {
+    border: 2px solid #0d6efd;
+    background-color: rgba(241, 237, 208, 0.803);
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(70, 56, 161, 0.1);
+}
